@@ -3,21 +3,14 @@
 
 #include <string>
 #include <iostream>
-#include <string>
 #include <fstream>
-#include <memory>
-#include <filesystem>
+#include "../libs/json.hpp"
 
 class TVK
 {
 private:
-    clock_t start;
-    std::filesystem::path example;
-    std::filesystem::path p;
-
 public:
-    std::ifstream file;
-    void readCSV(std::string filename);
+    void readJSON(std::string filename);
 };
 
 #endif

@@ -1,0 +1,9 @@
+{
+    "name": "Max Mustermann",
+    "age": 22,
+    "interests": [
+        "programming",
+        "music",
+        "travel"
+    ]
+}
